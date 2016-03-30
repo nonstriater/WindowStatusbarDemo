@@ -13,6 +13,7 @@
 		7235E45E1CAAB2C60091BE6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7235E45C1CAAB2C60091BE6C /* Main.storyboard */; };
 		7235E4601CAAB2C60091BE6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7235E45F1CAAB2C60091BE6C /* Assets.xcassets */; };
 		7235E4631CAAB2C60091BE6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7235E4611CAAB2C60091BE6C /* LaunchScreen.storyboard */; };
+		7235E46C1CAABABD0091BE6C /* BigWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7235E46B1CAABABD0091BE6C /* BigWindowViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		7235E45F1CAAB2C60091BE6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7235E4621CAAB2C60091BE6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7235E4641CAAB2C60091BE6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7235E46A1CAABABD0091BE6C /* BigWindowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigWindowViewController.h; sourceTree = "<group>"; };
+		7235E46B1CAABABD0091BE6C /* BigWindowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigWindowViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				7235E4571CAAB2C60091BE6C /* AppDelegate.m */,
 				7235E4591CAAB2C60091BE6C /* ViewController.h */,
 				7235E45A1CAAB2C60091BE6C /* ViewController.m */,
+				7235E46A1CAABABD0091BE6C /* BigWindowViewController.h */,
+				7235E46B1CAABABD0091BE6C /* BigWindowViewController.m */,
 				7235E45C1CAAB2C60091BE6C /* Main.storyboard */,
 				7235E45F1CAAB2C60091BE6C /* Assets.xcassets */,
 				7235E4611CAAB2C60091BE6C /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7235E45B1CAAB2C60091BE6C /* ViewController.m in Sources */,
+				7235E46C1CAABABD0091BE6C /* BigWindowViewController.m in Sources */,
 				7235E4581CAAB2C60091BE6C /* AppDelegate.m in Sources */,
 				7235E4551CAAB2C60091BE6C /* main.m in Sources */,
 			);
@@ -264,6 +270,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WindowStatusbarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nonstriater.WindowStatusbarDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +282,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WindowStatusbarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nonstriater.WindowStatusbarDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
